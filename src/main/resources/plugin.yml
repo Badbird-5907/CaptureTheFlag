@@ -1,0 +1,25 @@
+name: CaptureTheFlag
+version: ${project.version}
+main: net.badbird5907.capturetheflag.CaptureTheFlag
+api-version: 1.16
+
+commands:
+  capturetheflag:
+    aliases:
+      - ctf
+permissions:
+  capturetheflag.command.start:
+    default: op
+    description: Start the game
+  capturetheflag.command.endgame:
+    default: op
+    description: End the game
+  capturetheflag.command.addplayer:
+    default: op
+    description: Assign a player a team
+  capturetheflag.command.clearteams:
+    default: op
+    description: Clear teams
+  capturetheflag.command.givebanner:
+    default: op
+    description: Give banner

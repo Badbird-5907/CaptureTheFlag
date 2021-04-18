@@ -1,0 +1,6 @@
+addteam command
+start game
+jail
+reset game (put banners back or give them to the command sender)
+clear teams
+grace area
